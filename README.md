@@ -24,7 +24,8 @@ pip install -r requirements.txt
 ## Inference
 We provide the trained weights and example data for inference. Please check `demo.ipynb`.
 ```bash
-jupyter notebook demo.ipynb
+# jupyter notebook demo.ipynb
+jupyter notebook demo.ipynb --ip=0.0.0.0 --allow-root
 ```
 
 ## Training
